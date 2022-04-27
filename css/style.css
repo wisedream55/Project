@@ -1,0 +1,40 @@
+body {
+    background: rgb(34, 39, 49);
+    padding-left: 15%;
+    padding-bottom: 7%;
+    padding-right: 15%;
+}
+
+text {
+    color: #c8ae5d;
+    background-color: #1a1f27;
+}
+
+text:hover {
+    text-decoration: underline;
+}
+h4 {
+    color: #d9d7d6;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #d9d7d6;
+}
+
+ul {
+    color: #d9d7d6;
+}
+
+a {
+    color: #4aa6e7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.colortext {
+    color: yellow;
+}
