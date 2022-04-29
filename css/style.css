@@ -72,23 +72,23 @@ a:hover {
 .menu-item-attribute{
     float: left;
     margin-left: 15%;
-    margin-top: 14px;
+    margin-top: 12px;
 }
 .menu-item-tags {
     float: left;
     margin-right: 0px;
-    margin-top: 14px;
+    margin-top: 12px;
 }
 
 .menu-link {
     text-decoration: none;
-    background: #37373f;
+    background: #1a1f27;
     color: #f1f5f9;
     padding: 15px;
     font-family: arial;
 }
 .menu-link:hover{
-    background:#4b79cd;/*добавляем эффект при наведении*/
+    background:rgb(34, 39, 49);
 }
 .block{ 
     padding-left: 15%;
