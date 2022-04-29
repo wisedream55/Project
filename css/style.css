@@ -1,8 +1,6 @@
 body {
     background: rgb(34, 39, 49);
-    padding-left: 15%;
-    padding-bottom: 7%;
-    padding-right: 15%;
+    
 }
 
 text {
@@ -13,17 +11,20 @@ text {
 text:hover {
     text-decoration: underline;
 }
+
 h4 {
     color: #d9d7d6;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 h2 {
     color: #d9d7d6;
 }
 
-ul {
+li {
     color: #d9d7d6;
+
 }
 
 a {
@@ -39,6 +40,54 @@ a:hover {
     color: yellow;
 }
 
-.yellow-label{
-    color:yellow;
+.yellow-label {
+    color: yellow;
+}
+
+.white-label {
+    color: #d9d7d6;
+}
+
+.green-label {
+    color: rgb(111, 222, 33);
+}
+
+.pink-label {
+    color: rgb(255, 60, 155);
+}
+
+.orange-label {
+    color: rgb(222, 133, 33);
+}
+
+.menu {
+    list-style: none;
+    background: #1a1f27;
+    height: 50px; 
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+}
+
+.menu-item {
+    float: right;
+    margin-right: 15px;
+    margin-top: 14px;
+}
+
+.menu-link {
+    text-decoration: none;
+    background: #37373f;
+    color: #f1f5f9;
+    padding: 10px;
+    font-family: arial;
+    border-radius: 4px;
+}
+.menu-link:hover{
+    background:#4b79cd;/*добавляем эффект при наведении*/
+}
+.block{ 
+    padding-left: 15%;
+    padding-bottom: 7%;
+    padding-right: 15%;
 }
