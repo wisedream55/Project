@@ -146,6 +146,9 @@ div.services-2 a:hover {
     background: #fff;
     border: 1px solid #2ebaee;
 }
+div.services-2 div img {
+    max-width: 100%;
+}
 div.services-3 div.serv-2 {
     padding-left: 110px;
 }
@@ -191,4 +194,92 @@ div.services-3 div.serv-2 p {
 div.services-3 div.serv-2 h3 {
   color: #fff;
   font-size: 25px;
+}
+
+/************************************************
+***************Section boy******************
+*************************************************/
+
+section.boy {
+    height: 517px;
+}
+section.boy div img {
+    max-width: 100%;
+}
+section.boy h3{
+    font-size: 65px;
+    color: #000;
+    max-width: 600px;
+    margin-left: 75px;
+}
+
+section.boy div p {
+    color: #878787;
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 75px;
+}
+
+section.boy div a {
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 44px;
+    margin-left: 75px;
+}
+section.boy div a:hover{
+    color: #2ebaee;
+    background: #fff;
+    border: 1px solid #2ebaee;
+}
+
+/************************************************
+***************Next-boy******************
+*************************************************/
+
+section.next-boy{
+    min-height: 430px;
+}
+
+section.next-boy div.block-1 {
+    background-image: url(../image-austera/ico-07.png);
+    min-height: 430px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.next-boy div.block-2 {
+    background-image: url(../image-austera/ico-08.png);
+    min-height: 430px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.next-boy div.block-3 {
+    background-image: url(../image-austera/ico-09.png);
+    min-height: 430px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.next-boy div.block-4 {
+    background-image: url(../image-austera/ico-10.png);
+    min-height: 430px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.next-boy h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    height: 330px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 120px 40px 0 40px;
 }
