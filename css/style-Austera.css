@@ -1,7 +1,9 @@
 body{   
     font-family: 'Montserrat', sans-serif;
-    margin: 0 -15px;
+    margin: 0 -12px;
+    overflow-x: hidden;
 }
+
 header {
     height: 967px;
     background-image: url(../image-austera/back-header.jpg);
@@ -278,7 +280,6 @@ section.next-boy h4{
     font-size: 40px;
     font-weight: bold;
     height: 330px;
-    width: 100%;
     background: rgba(0, 0, 0, 0.7);
     margin: 0;
     padding: 120px 40px 0 40px;
