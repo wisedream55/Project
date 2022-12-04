@@ -129,7 +129,8 @@ div.services-2 h3 {
     font-size: 36px;
 }
 
-div.services-2 a {
+div.services-2 button {
+    border: 1px solid #2ebaee;
     margin-top: 50px;
     display: inline-block;
     text-align: center;
@@ -142,12 +143,22 @@ div.services-2 a {
     font-weight: bolder;
     color: #fff;
     line-height: 44px;
+    margin-left:50px;
+    z-index: 1;
+    position: absolute;
 }
-div.services-2 a:hover {
+div.services-2 button:hover {
+    color: #2ebaee;
+    background: #fff;
+    border: 1px solid #2ebaee;
+    margin-left:50px;
+}
+div.services-2 button:hover {
     color: #2ebaee;
     background: #fff;
     border: 1px solid #2ebaee;
 }
+
 div.services-2 div img {
     max-width: 100%;
 }
@@ -173,6 +184,7 @@ div.services-3 a{
     color: #2ebaee;
     line-height: 44px;
 }
+
 div.services-3 a:hover {
     margin-top: 50px;
     display: inline-block;
@@ -188,6 +200,7 @@ div.services-3 a:hover {
     line-height: 44px;
     border: 1px solid #fff;
 }
+
 
 div.services-3 div.serv-2 p {
     color: #fff;
@@ -220,7 +233,7 @@ section.boy div p {
     margin-left: 75px;
 }
 
-section.boy div a {
+section.boy div button {
   
     display: inline-block;
     text-align: center;
@@ -236,7 +249,7 @@ section.boy div a {
     margin: 50px 0 50px 75px;
     border: 1px solid #2ebaee;
 }
-section.boy div a:hover{
+section.boy div button:hover{
     color: #2ebaee;
     background: #fff;
     border: 1px solid #2ebaee;
@@ -354,11 +367,11 @@ section.check-our div.awesome a:hover {
     border: 1px solid #2ebaee;
 }
 
-.boy-image {
+/* .boy-image {
     background-image: url(../image-austera/boy.jpg);
     background-size: cover;
 
-}
+} */
 
 /************************************************
 ***************Footer******************
